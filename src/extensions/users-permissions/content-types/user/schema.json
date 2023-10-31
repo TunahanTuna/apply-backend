@@ -74,6 +74,14 @@
       ]
     },
     "bankFile": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files"
+      ]
+    },
+    "yatirimGeriDonus": {
       "allowedTypes": [
         "files"
       ],

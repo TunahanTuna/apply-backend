@@ -661,6 +661,7 @@ export interface PluginUsersPermissionsUser extends Schema.CollectionType {
     >;
     excelFile: Attribute.Media;
     bankFile: Attribute.Media;
+    yatirimGeriDonus: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     createdBy: Attribute.Relation<
